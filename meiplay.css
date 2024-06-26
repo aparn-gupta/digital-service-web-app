@@ -1,4 +1,4 @@
-@media (min-width: 1024px)  {
+@media (min-width: 1025px)  {
     
 body {
    
@@ -81,6 +81,9 @@ body {
     
 }
 
+.fa-house {
+    color: blue;
+}
 
 .navbar {
     display: flex;
@@ -101,9 +104,9 @@ body {
 }
 
 
-/* .container27  {
+.container27  {
     background-color: black;
-} */
+}
 
 .background-img1 {
     width: 100vw;
@@ -480,7 +483,9 @@ body {
     margin: 4rem 0;
 }
 
-
+.fa-circle-xmark {
+    margin-right: 8rem;
+}
 
 
 .container16 {
@@ -960,11 +965,11 @@ span {
     position: fixed;
     
     background-color: #e62b4a;
-    right: 3rem;
-    bottom: 3rem;
-    width: 1.5rem;
-    height: 1.5rem;
-    padding: 1rem;
+    right: 8rem;
+    bottom: 8rem;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
 
     
     

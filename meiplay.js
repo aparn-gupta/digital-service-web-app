@@ -1,8 +1,13 @@
+// import Swiper from 'swiper';
+// import 'swiper/css'
+
+
 let videoContainer = document.getElementById("img3-container")
 
 document.getElementById("watch").addEventListener("click", () => {
     console.log("apple")
-    videoContainer.innerHTML = '<iframe width="1200" height="700" src="https://www.youtube.com/embed/c-I5S_zTwAc?si=BRmPf9y7WUN0zILV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    videoContainer.innerHTML = 
+    '<iframe width="1200" height="700" src="https://www.youtube.com/embed/c-I5S_zTwAc?si=BRmPf9y7WUN0zILV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   <i class="fa-solid fa-house"></i>'
 
 
 }) 
