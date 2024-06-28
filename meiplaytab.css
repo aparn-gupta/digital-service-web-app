@@ -1,5 +1,5 @@
 
-@media (min-width: 768px) and (max-width: 1024px)  {
+@media (min-width: 768px) and (max-width: 1023px)  {
 
     .body  {
         font-family: 'Oswald', sans-serif;
@@ -643,10 +643,10 @@
     
     .container7 {
         
-        /* background-color: white;
+        background-color: white;
         margin-top: 5rem;
-        padding-bottom: 10rem; */
-        display: none;
+        padding-bottom: 10rem;
+     
         
     
     }
@@ -840,8 +840,7 @@
     }
     
     .clients {
-        display: flex;
-        justify-content: space-between;
+       
         background-color: #f8f9fa;
         padding: 0 2rem 4rem ;
     
@@ -851,8 +850,28 @@
     .client-logo {
         width: 17rem;
         height: 13rem;
+
+        
     
     }
+
+
+    .swiper-container {
+        position: relative;
+      }
+      
+      .swiper-pagination {
+        position: absolute;
+        bottom: 2rem; /* 2rem away from the bottom of the container */
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: 100%;
+        color: black;
+      }
+
+
+
     
     .container24 {
         display: flex;

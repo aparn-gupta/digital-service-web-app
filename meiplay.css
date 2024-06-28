@@ -1,4 +1,4 @@
-@media (min-width: 1025px)  {
+@media (min-width: 1024px)  {
     
 body {
    
@@ -103,9 +103,19 @@ body {
  
 }
 
+.swiper {
+    color: white;
+}
+
+#video-container {
+    display: none;
+}
 
 .container27  {
     background-color: black;
+    width: 100vw;
+   
+   
 }
 
 .background-img1 {
@@ -653,8 +663,7 @@ body {
 }
 
 .container7 {
-    display: flex;
-    justify-content: space-between;
+  
     background-color: white;
     
     padding-bottom: 10rem;
@@ -841,12 +850,12 @@ span {
 
 }
 
-.clients {
+/* .clients {
     display: flex;
     justify-content: space-between;
     background-color: #f8f9fa;
     padding: 0 8rem 12rem ;
-
+    
 }
 
 
@@ -854,7 +863,9 @@ span {
     width: 17rem;
     height: 13rem;
 
-}
+    margin-right: 2rem;
+
+} */
 
 .container24 {
     display: flex;
@@ -965,11 +976,12 @@ span {
     position: fixed;
     
     background-color: #e62b4a;
-    right: 8rem;
-    bottom: 8rem;
+    right: 2rem;
+    bottom: 2rem;
     width: 2rem;
     height: 2rem;
     padding: 0.5rem;
+    z-index: 1001;
 
     
     
@@ -1003,6 +1015,99 @@ span {
     filter: brightness(40%)
     
 }
+
+
+
+.clients {
+    /* display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fa; */
+    padding: 0 8rem 6rem;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;;
+  }
+  
+  .client-logo {
+    width: 17rem;
+    height: 13rem;
+  }
+  
+  .swiper-container {
+    position: relative;
+  }
+  
+  .swiper-pagination {
+    position: absolute;
+    bottom: 2rem; /* 2rem away from the bottom of the container */
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    color: black;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.swiper-button-next {
+    background-color: blue;
+}
+
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+} */
+
+
+
 
 
 
