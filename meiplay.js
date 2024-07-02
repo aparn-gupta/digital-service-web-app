@@ -1,49 +1,154 @@
-// // import Swiper from 'swiper';
-// // import 'swiper/css'
 
 
-// let videoContainer = document.getElementById("video-container")
+document.addEventListener('DOMContentLoaded', () => {
+   
+    
 
-// document.getElementById("watch").addEventListener("click", () => {
-//     console.log("apple")
-//     videoContainer.innerHTML = 
-//     ''
-//     document.getElementById("flexcont").style.display = "flex"
-//     document.getElementById("close-btn").style.fontSize = "3rem"
-//     document.getElementById("close-btn").style.color = "black"
-//     document.getElementById("close-btn").style.marginBottom = "750px"
-//     document.getElementById("close-btn").style.marginLeft = "32px"
+    const menuScreen = document.getElementById("menubar-options")
+    const background1 = document.getElementById("background-img-1")
+    const background2 = document.getElementById("background-img-2")
+    const backButton = document.getElementById("slide-1")
+    const forwardButton = document.getElementById("slide-2")
 
-//     document.getElementById("close-btn").addEventListener("click", ()  => {
-//         document.getElementById("flexcont").style.display = "none"
+    menuScreen.style.display = "none"
+    background2.style.display = "none"
+
+
+    forwardButton.addEventListener('click', () => {
+        background1.style.display = "none"
+         background2.style.display = "block"
+    })
+
+
+    
+    backButton.addEventListener('click', () => {
+        background1.style.display = "block"
+         background2.style.display = "none"
+    })
+
+
+    document.getElementById("menuu").addEventListener("click", () => {
+    console.log("berries")
+    
+    menuScreen.style.display = "block"
+
+
+
+})
+
+    document.getElementById('cross-mark').addEventListener("click", () => {
+    menuScreen.style.display = "none"
+
+
+
+} )
+
+
+
+
+
+
+    
+    
+} )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let videoContainer = document.getElementById("video-container")
+let imgContainer = document.getElementById("img3-container")
+let closeButton = document.getElementById("close-btn")
+
+videoContainer.style.display = "none"
+
+
+document.getElementById("watch").addEventListener("click", () => {
+    console.log("apple")
+    videoContainer.style.display = "block"
+    imgContainer.style.display = "none"
+ 
         
 
-//     })
-
-//     <div id="video-container">  <iframe width="1200" height="550" src="https://www.youtube.com/embed/c-I5S_zTwAc?si=BRmPf9y7WUN0zILV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <p id= "close-btn"> x </p>
+    })
 
 
-
-// }) 
-
-
-// let menuScreen = document.getElementById("menubar-options")
-
-
-
-
-
-
-// document.getElementById("menu-button").addEventListener("click", () => {
-//     console.log("berries")
+    closeButton.addEventListener('click', () => {
+        videoContainer.style.display = "none"
+        imgContainer.style.display = "flex"
     
-//     menuScreen.style.display = "block"
+    })
+    
+
+    
 
 
 
-// })
 
-// crossButton.addEventListener("click", () =>  {
-//     menuScreen.style.display = "none"
 
-// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let menuScreen = document.getElementById("menubar-options")
+
+
+document.getElementById("menu-button").addEventListener("click", () => {
+    console.log("berries")
+    
+    menuScreen.style.display = "block"
+})
+
+document.getElementById("cross-mark").addEventListener("click", () =>  {
+    menuScreen.style.display = "none"
+
+})
